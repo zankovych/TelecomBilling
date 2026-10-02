@@ -1,0 +1,52 @@
+# ── Build output (.NET) ─────────────────────────────
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+publish/
+
+# ── Test results / coverage ─────────────────────────
+TestResults/
+[Tt]est[Rr]esult*/
+coverage*.json
+coverage*.xml
+*.coverage
+*.trx
+
+# ── NuGet ───────────────────────────────────────────
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ── Local database (created automatically on startup) ─
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ── IDE: Visual Studio ──────────────────────────────
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# ── IDE: JetBrains Rider ────────────────────────────
+.idea/
+*.sln.iml
+
+# ── IDE: VS Code ────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
+# ── OS ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
